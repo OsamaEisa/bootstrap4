@@ -1,0 +1,435 @@
+/*
+
+first color: #08526d
+second color: #ec1c23
+
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Start Upper Bar */
+
+.upper-bar {
+    background-color: #08526d;
+    color: #FFF;
+    font-size: 20px;
+}
+.upper-bar .info {
+    margin: 15px 0;
+}
+.upper-bar span {
+    color: #bfc6c9;
+}
+.upper-bar .quote {
+    display: inline-block;
+    padding: 2px 10px;
+    margin-left: 20px;
+    border: 1px solid #ec1c23;
+}
+
+/* End Upper Bar */
+
+/* Start Nav Bar */
+
+.navbar-brand > span {
+    font-size: 35px;
+}
+.navbar-brand span:first-child {
+    color: #08526d;
+    font-weight: bold;
+}
+.navbar-brand span:last-child {
+    color: #ec1c23;
+}
+.navbar-nav .nav-link {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 15px;
+    color: #08526d !important;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+.navbar-nav .nav-link:hover {
+    background-color: #08526d;
+    color: #FFF !important;
+}
+
+.navbar-nav .active > .nav-link {
+    color: #ec1c23 !important;
+    border: 1px solid #ec1c23
+}
+.navbar-nav .active > .nav-link:hover {
+    color: #ec1c23;
+    background-color: #FFF;
+
+}
+/* End Nav Bar */
+
+/* Start Slider */
+
+.slider .slider-1 {
+    background-image: url('../imgs/unsplash-1.jpg');
+}
+.slider .slider-2 {
+    background-image: url('../imgs/unsplash-2.jpg');
+}
+.slider .slider-3 {
+    background-image: url('../imgs/unsplash-3.jpg');
+}
+.slider .carousel-inner h1 {
+    position: absolute;
+    z-index: 3;
+    color: #FFF;
+    font-size: 60px;
+    max-width: 800px;
+    line-height: 1.4;
+}
+.slider .carousel-inner h1 span {
+    background-color: #ec1c23;
+    display: inline-block;
+    padding: 4px 15px;
+    margin-top: 10px;
+}
+.slider .carousel-inner .overlay {
+    position: absolute;
+    top:0; left: 0;
+    width: 100%; height: 100%;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.slider .carousel-item {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.slider .carousel-indicators li {
+    height: 6px;
+    cursor: pointer;
+}
+
+/* End Slider */
+
+/* Start Features */
+
+.features {
+    padding: 70px 0 30px;
+}
+.features i {
+    background-color: #ec1c23;
+    color: #FFF;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+.features h3 {
+    color: #08526d;
+    font-size: 23px;
+}
+.features p {
+    color: #8a8787;
+    margin-bottom: 40px;
+}
+
+/* End Features */
+
+/* Start Overview */
+
+.overview {
+    background-color: #f7f7f7;
+    padding: 80px 0;
+}
+.overview h1 {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    letter-spacing: 1.4px;
+}
+.overview p {
+    line-height: 1.8;
+    margin: 0 auto 20px;
+    color: #6a6a6a;
+    width: 80%;
+}
+.overview h4 {
+    letter-spacing: 4px;
+    font-weight: normal;
+    color: #636262;
+    margin-bottom: 45px;   
+}
+.overview button {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #ec1c23;
+    color: #FFF;
+    padding: 10px 35px;
+    font-size: 20px;
+    border: 1px solid #ec1c23;
+    transition: all 0.5s ease-in-out;
+}
+/* .overview button:hover {
+    background-color: #08526d;
+    color: #FFF;
+    border: 1px solid #08526d;
+} */
+
+/* End Overview */
+
+/* Start Featured Work*/
+
+.featured-work {
+    padding: 80px 0;
+}
+.featured-work h1 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 1.4px;
+}
+.featured-work p {
+    line-height: 1.6;
+    margin: 0 auto 20px;
+    color: #6a6a6a;
+    width: 80%;
+}
+
+.featured-work ul {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.featured-work ul li {
+    color: #08526d;
+    border: 2px solid #08526d;
+    padding: 10px 20px !important;
+    font-size: 20px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.featured-work ul li.active, .featured-work ul li:hover {
+    background-color: #ec1c23;
+    border: 2px solid #ec1c23;
+    color: #FFF;
+    font-weight: 600;
+    cursor: pointer;
+}
+.featured-work .shuffle-imgs .row {
+    margin: 0;
+}
+.featured-work .shuffle-imgs .row .col-md {
+    padding: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.featured-work .row img {
+    width: 100%;
+}
+/* End Featured Work*/
+
+/* Start Latest Posts */
+
+.latest-posts {
+    padding: 0 0 80px;
+}
+
+.latest-posts h1 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 1.4px;
+}
+.latest-posts .custome-p {
+    line-height: 1.6;
+    margin: 0 auto 50px;
+    color: #6a6a6a;
+    width: 80%;
+}
+.latest-posts .card {
+    margin-bottom: 20px;
+}
+.latest-posts .card .card-title {
+    color: #08526d;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.latest-posts .card .card-text {
+    color: #6a6a6a;
+    margin-bottom: 10px;
+}
+.latest-posts .card .card-link {
+    color: #ec1c23;
+    font-weight: bold
+}
+
+/* End Latest Posts */
+
+/* Start Testimonials */
+
+.testimonials {
+    background: url('../imgs/test01.jpg');
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.testimonials .overlay {
+    position: absolute;
+    top:0; left: 0;
+    width: 100%; height: 100%;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.testimonials .container {
+    position: relative;
+    z-index: 3;
+}
+.testimonials .carousel-caption {
+    top: 50%;
+    margin-top: -176px;
+}
+.testimonials .carousel-caption img {
+    margin-bottom: 20px;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+}
+.testimonials .carousel-caption h4 {
+    margin-bottom: 5px;
+}
+.testimonials .carousel-caption h4 + span {
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.testimonials .carousel-caption span + p {
+    font-size: 20px;
+    line-height: 1.8;
+}
+.testimonials .carousel-indicators li {
+    height: 6px;
+    cursor: pointer;
+}
+/* End Testimonials */
+
+/* Start Pricing Table */
+
+.pricing-table {
+    padding: 80px 0;
+    background-color: #f7f7f7;
+}
+
+.pricing-table h1 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 1.4px;
+}
+.pricing-table .custome-p {
+    line-height: 1.6;
+    margin: 0 auto 80px;
+    color: #6a6a6a;
+    width: 80%;
+}
+.pricing-table .card {
+    margin-bottom: 20px;
+}
+.pricing-table .card-body {
+    padding: 1px;
+}
+.pricing-table .card .card-title {
+    color: #08526d;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 40px;
+}
+.pricing-table .card .card-text {
+    padding: 10px;
+    margin: 30px 0 10px;
+    background-color: #f7f7f7;
+    color: #08526d;
+    font-size: 33px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+.pricing-table .card .card-text span {
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+}
+.pricing-table .list-group-item {
+    border: none;
+}
+
+.pricing-table .card .card-body a.btn {
+    border: 1px solid #ec1c23;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    padding: 10px 25px;
+    color: #FFF;
+    background-color: #ec1c23;
+}
+.pricing-table .card.corporate {
+    position: relative;
+    top: -20px;
+}
+.pricing-table .card.corporate .card-text {
+    background-color: #ec1c23;
+    color: #FFF;
+}
+.pricing-table .card.corporate a.btn {
+    background-color:  #08526d;
+    border: 1px solid #08526d;
+}
+
+/* End Pricing Table */
+
+/* Footer */
+
+.footer {
+    padding: 25px 0;
+}
+.footer .copyright {
+    color: #7d7b7b;
+    font-size: 20px;
+}
+.footer .copyright span {
+    color: #1abc9c;
+    font-weight: bold
+}
+.footer .socialleft a:first-child i {
+    color: #3a5999;
+}
+.footer .socialleft a:nth-child(2) i {
+    color: #D44638;
+}
+.footer .socialleft a:nth-child(3) i {
+    color: #007bb5;
+}
+.footer .socialleft a:nth-child(4) i {
+    color: #211F1F;
+}
+
+/* Footer */
+
+
+/* #08526d  #ec1c23 */
